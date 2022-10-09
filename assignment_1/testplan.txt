@@ -1,0 +1,3 @@
+I plan to perform user acceptance tests to test the inputs. One example would be testing the user input by inputting different number of arguments and checking it to see if the correct output is given, i.e. if I input two arguments, no error would be given, but if 3 arguments were given, then an 'Bad Argument Count' error should be outputted.
+
+I also plan to perform unit tests to test the individual components of the programs. One example would be to test the file operations (reading and writing) by calling the program with files and checking if the correct output is given, i.e. if i enter files that do exist, no error should be given, but if I enter files that don't exist, it should print out the 'Bad File Name'  error message.

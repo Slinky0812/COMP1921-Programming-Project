@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "fileoperations.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "pgmoperations.h": "c"
+    }
+}

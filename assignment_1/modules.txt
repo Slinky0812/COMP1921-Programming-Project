@@ -1,0 +1,43 @@
+Task 1:
+	Modules needed:
+		- pgmEcho - runs the functions needed to copy one file into another. Also creates a struct with attributes of a pgm file.
+		- pgmOperations - contains the functions needed by the main function to manipulate the pgm files.
+		- errorCheck - performs error checks and prints out appropriate error messages when necessary.
+		- fileOperations - opens the file for reading and writing, and calls the appropriate functions from pgmOperations.
+
+Task 2:
+	Modules needed:
+		- pgmComp - runs the functions needed to take two pgm files and check if they are logically identical.
+		- errorCheck - performs error checks and prints out appropriate error messages when necessary.
+		- fileOperations - opens the file for reading and writing, and calls the appropriate functions from pgmOperations.
+		- pgmOperations - contains the functions needed by the main function to manipulate the pgm files.
+
+Task 3:
+	Modules needed:
+		- pgmOperations - contains the functions needed by the main function to manipulate the pgm files.
+		- pgmComp - takes two pgm files and checks if they are logically identical.
+		- pgmb2a - takes the binary form of the pgm file and converts it into an ASCII form.
+		- pgma2b - takes the ASCII form of the pgm file and converts it into a binary form.
+		- errorCheck - performs error checks and prints out appropriate error messages when necessary.
+		- fileOperations - opens the file for reading and writing, and calls the appropriate functions from pgmOperations.
+
+Task 4:
+	Modules needed:
+		- pgmReduce - reduces the size of the input file by a given factor.
+		- errorCheck - performs error checks and prints out appropriate error messages when necessary.
+		- fileOperations - opens the file for reading and writing, and calls the appropriate functions from pgmOperations.
+		- pgmOperations - contains the functions needed by the main function to manipulate the pgm files.
+
+Task 5:
+	Modules needed:
+		- pgmTile - divides the input file into smaller images with a given dimension.
+		- errorCheck - performs error checks and prints out appropriate error messages when necessary.
+		- fileOperations - opens the file for reading and writing, and calls the appropriate functions from pgmOperations.
+		- pgmOperations - contains the functions needed by the main function to manipulate the pgm files.
+
+Task 6:
+	Modules needed:
+		- pgmAssemble - creates a larger image from smaller images.
+		- errorCheck - performs error checks and prints out appropriate error messages when necessary.
+		- fileOperations - opens the file for reading and writing, and calls the appropriate functions from pgmOperations.
+		- pgmOperations - contains the functions needed by the main function to manipulate the pgm files.
